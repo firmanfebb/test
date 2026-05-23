@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notepad Todolist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 Notepad Todolist</h1>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Tambahkan tugas baru..." />
+      <button id="addBtn">Tambah</button>
+    </div>
+
+    <div class="filter-area">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="active">Aktif</button>
+      <button class="filter-btn" data-filter="completed">Selesai</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="footer">
+      <span id="taskCount">0 tugas tersisa</span>
+      <button id="clearCompleted">Hapus Selesai</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
