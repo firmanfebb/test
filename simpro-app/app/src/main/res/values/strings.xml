@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIMPRO</string>
+
+    <!-- Error pages -->
+    <string name="error_no_internet_title">Tidak Ada Koneksi Internet</string>
+    <string name="error_no_internet_message">Periksa koneksi WiFi atau data seluler Anda, lalu coba lagi.</string>
+    <string name="error_server_title">Server Bermasalah</string>
+    <string name="error_server_message">Server sedang tidak dapat diakses. Silakan coba beberapa saat lagi.</string>
+    <string name="error_not_found_title">Halaman Tidak Ditemukan</string>
+    <string name="error_not_found_message">Halaman yang Anda cari tidak tersedia.</string>
+    <string name="error_ssl_title">Koneksi Tidak Aman</string>
+    <string name="error_ssl_message">Koneksi ke server tidak dapat diverifikasi keamanannya.</string>
+    <string name="btn_retry">Coba Lagi</string>
+    <string name="btn_exit">Keluar</string>
+
+    <!-- Exit dialog -->
+    <string name="exit_dialog_title">Keluar Aplikasi</string>
+    <string name="exit_dialog_message">Apakah Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="exit_dialog_yes">Ya, Keluar</string>
+    <string name="exit_dialog_no">Tidak</string>
+
+    <!-- Update dialog -->
+    <string name="update_dialog_title">Pembaruan Tersedia</string>
+    <string name="update_dialog_message">Versi terbaru tersedia. Silakan perbarui aplikasi untuk melanjutkan.</string>
+    <string name="update_dialog_btn">Perbarui Sekarang</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_rationale">Aplikasi memerlukan akses lokasi untuk fitur peta.</string>
+    <string name="permission_camera_rationale">Aplikasi memerlukan akses kamera untuk mengambil foto.</string>
+    <string name="permission_storage_rationale">Aplikasi memerlukan akses penyimpanan untuk mengunduh file.</string>
+
+    <!-- Loading -->
+    <string name="loading_message">Memuat...</string>
+    <string name="reconnecting_message">Menghubungkan kembali...</string>
+</resources>
