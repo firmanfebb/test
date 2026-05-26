@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder launcher icon - Replace with your actual ic_launcher.png -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M24,2 C36.15,2 46,11.85 46,24 C46,36.15 36.15,46 24,46 C11.85,46 2,36.15 2,24 C2,11.85 11.85,2 24,2 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,17 C28,15 26,13 24,13 L20,13 C18,13 16,15 16,17 C16,19 18,21 20,21 L28,21 C30,21 32,23 32,25 L32,27 C32,29 30,31 28,31 L20,31 C18,31 16,29 16,27"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>

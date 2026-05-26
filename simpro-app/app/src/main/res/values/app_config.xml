@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    ============================================================
+    SIMPRO APP CONFIGURATION
+    Developer: Edit values below to customize the app
+    ============================================================
+    -->
+
+    <!-- URL utama yang akan di-load di WebView -->
+    <string name="config_web_url">https://your-website-url.com</string>
+
+    <!-- Nama aplikasi -->
+    <string name="config_app_name">SIMPRO</string>
+
+    <!-- Durasi splash screen dalam milidetik (3000 = 3 detik) -->
+    <integer name="config_splash_duration">3000</integer>
+
+    <!-- Warna background splash screen (format hex) -->
+    <string name="config_splash_bg_color">#FFFFFF</string>
+
+    <!-- User Agent kustom (biar tidak terdeteksi webview) -->
+    <string name="config_user_agent">Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36</string>
+
+    <!-- Timeout koneksi dalam milidetik -->
+    <integer name="config_connection_timeout">15000</integer>
+
+    <!-- Enable/disable fitur -->
+    <bool name="config_enable_pull_to_refresh">true</bool>
+    <bool name="config_enable_file_download">true</bool>
+    <bool name="config_enable_file_upload">true</bool>
+    <bool name="config_enable_geolocation">true</bool>
+    <bool name="config_enable_camera">true</bool>
+    <bool name="config_enable_js_bridge">true</bool>
+    <bool name="config_enable_push_notification">true</bool>
+    <bool name="config_enable_analytics">true</bool>
+    <bool name="config_enable_crashlytics">true</bool>
+    <bool name="config_enable_force_update">true</bool>
+
+    <!-- Force update: versi minimum yang diizinkan (dari Firebase Remote Config) -->
+    <string name="config_remote_config_min_version_key">min_app_version</string>
+
+    <!-- Cache mode: LOAD_DEFAULT, LOAD_CACHE_ELSE_NETWORK, LOAD_NO_CACHE -->
+    <string name="config_cache_mode">LOAD_DEFAULT</string>
+</resources>
